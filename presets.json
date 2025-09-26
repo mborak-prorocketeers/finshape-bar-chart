@@ -1,0 +1,32 @@
+{
+  "modern": {
+    "chartWidth": 200,
+    "chartHeight": 200,
+    "thickness": 10,
+    "spacing": 10,
+    "is3d": false,
+    "barColor": "#2fd2ffff",
+    "backgroundColor": "#414141ff",
+    "textColor": "#ffffff",
+    "borderRadius": 10,
+    "rulesColor": "#00000000",
+    "values": [10, 20, 30],
+    "roundedTop": true,
+    "roundedBottom": true
+  },
+  "666": {
+    "chartWidth": 200,
+    "chartHeight": 200,
+    "thickness": 40,
+    "spacing": 10,
+    "is3d": false,
+    "barColor": "#8f0a00",
+    "backgroundColor": "##121111",
+    "textColor": "#fc4444",
+    "rulesColor": "#000000",
+    "borderRadius": 4,
+    "roundedTop": true,
+    "roundedBottom": false,
+    "values": [6, 36, 216]
+  }
+}
