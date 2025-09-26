@@ -5,13 +5,14 @@ import { useContext } from "react";
 
 const barChartEffect: Effect<Props> = (props) => {
   const { getAction } = useContext(ActionContext);
-  const mappedValues = props.values.map(
+  const mappedValues = props.values?.map(
     (value: number) =>
       ({
-        value: value,
-        frontColor: props.barColor,
-        barWidth: props.thickness,
-        label: value.toString(),
+        ...props,
+        value,
+        sideColor: props.frontColor,
+        topColor: props.frontColor,
+        label: value?.toString(),
         barBorderTopLeftRadius: props.roundedTop ? props.borderRadius : 0,
         barBorderTopRightRadius: props.roundedTop ? props.borderRadius : 0,
         barBorderBottomLeftRadius: props.roundedBottom ? props.borderRadius : 0,

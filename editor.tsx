@@ -24,7 +24,7 @@ const Definition = {
         sourcing: "static",
       })
       .default(200),
-    thickness: $.number()
+    barWidth: $.number()
       .setupInspector({
         control: "Slider",
         category: "visual",
@@ -82,7 +82,7 @@ const Definition = {
         sourcing: "static",
       })
       .default(10),
-    barColor: $.string()
+    frontColor: $.string()
       .optional()
       .setupInspector({
         control: "ColorPicker",

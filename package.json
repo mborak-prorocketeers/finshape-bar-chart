@@ -20,7 +20,7 @@
     "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/react-native": "^13.3.3",
     "@types/jest": "^29.5.14",
-    "@types/react": "19.1.1",
+    "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
     "babel-plugin-module-resolver": "5.0.2",
     "babel-preset-expo": "~54.0.3",
@@ -63,5 +63,5 @@
     "version:minor": "pnpm version minor --git-tag-version=false",
     "version:major": "pnpm version major --git-tag-version=false"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
