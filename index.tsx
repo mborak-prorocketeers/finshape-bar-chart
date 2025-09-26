@@ -25,14 +25,12 @@ function mapPropsToChartData(props: Props): barDataItem[] {
 
 function mapPropsToConfig(
   props: Props
-): Omit<
-  BarChartPropsType,
-  "data" | "onPress" | "yAxisTextStyle" | "roundedTop"
-> {
+): Omit<BarChartPropsType, "data" | "onPress" | "yAxisTextStyle"> {
   return {
     ...props,
     roundedTop: false, // roundedTop & roundedBottom z knihovny jsou vypnuté, jelikož mám svoje lepší
     roundedBottom: false,
+    yAxisTextStyle: { color: props.textColor },
   };
 }
 
@@ -44,7 +42,6 @@ const barChartEffect: Effect<Props> = (props) => {
     <BarChart
       data={data}
       onPress={getAction(props.onPress?.__$ref)}
-      yAxisTextStyle={{ color: props.textColor }}
       {...barConfig}
     />
   );
