@@ -8,7 +8,7 @@ const $ = createSchemaBuilder(name);
 const Definition = {
   Icon: () => <DataBarVerticalAddRegular />,
   schema: $.object({
-    chartWidth: $.number()
+    width: $.number()
       .setupInspector({
         control: "Numeric",
         category: "visual",
@@ -16,7 +16,7 @@ const Definition = {
         sourcing: "static",
       })
       .default(200),
-    chartHeight: $.number()
+    height: $.number()
       .setupInspector({
         control: "Numeric",
         category: "visual",
@@ -44,7 +44,7 @@ const Definition = {
         sourcing: "static",
       })
       .default(10),
-    is3d: $.boolean()
+    isThreeD: $.boolean()
       .setupInspector({
         control: "Switch",
         category: "other",

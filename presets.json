@@ -1,10 +1,10 @@
 {
   "modern": {
-    "chartWidth": 200,
-    "chartHeight": 200,
+    "width": 200,
+    "height": 200,
     "barWidth": 10,
     "spacing": 10,
-    "is3d": false,
+    "isThreeD": false,
     "frontColor": "#2fd2ffff",
     "backgroundColor": "#414141ff",
     "textColor": "#ffffff",
@@ -15,13 +15,13 @@
     "roundedBottom": true
   },
   "666": {
-    "chartWidth": 200,
-    "chartHeight": 200,
+    "width": 200,
+    "height": 200,
     "barWidth": 40,
     "spacing": 10,
-    "is3d": false,
+    "isThreeD": false,
     "frontColor": "#8f0a00",
-    "backgroundColor": "##121111",
+    "backgroundColor": "#121111",
     "textColor": "#fc4444",
     "rulesColor": "#000000",
     "borderRadius": 4,
